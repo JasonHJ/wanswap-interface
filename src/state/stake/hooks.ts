@@ -273,7 +273,7 @@ export function useStakingInfo(pairToFilterBy?: Pair | null): StakingInfo[] {
     info,
     radix,
     poolInfo,
-    totalAllocPoint.result,
+    totalAllocPoint,
     currentBlockNumber
   ])
 }
